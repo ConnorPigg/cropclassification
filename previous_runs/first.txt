@@ -1,0 +1,16 @@
+loading labels
+loading north bands
+loading south bands
+loading clf
+testing
+generating reports
+             precision    recall  f1-score   support
+
+          0       0.63      0.57      0.60   2356500
+          1       0.76      0.84      0.80   6331658
+          5       0.85      0.78      0.81   5352736
+
+avg / total       0.77      0.77      0.77  14040894
+
+Parameters of CLF:
+{'fit_intercept': True, 'verbose': 0, 'alpha': 0.0001, 'class_weight': None, 'eta0': 0.0, 'n_jobs': 1, 'shuffle': True, 'warm_start': False, 'loss': 'hinge', 'n_iter': None, 'random_state': None, 'average': False, 'tol': None, 'l1_ratio': 0.15, 'power_t': 0.5, 'max_iter': 5, 'epsilon': 0.1, 'penalty': 'l2', 'learning_rate': 'optimal'}
