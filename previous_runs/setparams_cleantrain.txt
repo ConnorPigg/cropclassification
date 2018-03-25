@@ -1,0 +1,18 @@
+loading labels
+loading north bands
+loading south bands
+south bands load failed
+loading cleaned train data...
+loading best pipe
+failed to load best pipe
+No grid search. Final params decided.
+Params
+{'sgdclassifier__average': False, 'sgdclassifier__random_state': None, 'standardscaler__with_mean': True, 'sgdclassifier__power_t': 0.5, 'sgdclassifier': SGDClassifier(alpha=0.001, average=False, class_weight=None, epsilon=0.1,
+       eta0=0.0, fit_intercept=True, l1_ratio=0.15,
+       learning_rate='optimal', loss='hinge', max_iter=1000, n_iter=None,
+       n_jobs=4, penalty='l2', power_t=0.5, random_state=None,
+       shuffle=True, tol=0.001, verbose=0, warm_start=False), 'sgdclassifier__warm_start': False, 'sgdclassifier__fit_intercept': True, 'standardscaler__with_std': True, 'standardscaler__copy': True, 'sgdclassifier__n_iter': None, 'sgdclassifier__l1_ratio': 0.15, 'steps': [('standardscaler', StandardScaler(copy=True, with_mean=True, with_std=True)), ('sgdclassifier', SGDClassifier(alpha=0.001, average=False, class_weight=None, epsilon=0.1,
+       eta0=0.0, fit_intercept=True, l1_ratio=0.15,
+       learning_rate='optimal', loss='hinge', max_iter=1000, n_iter=None,
+       n_jobs=4, penalty='l2', power_t=0.5, random_state=None,
+       shuffle=True, tol=0.001, verbose=0, warm_start=False))], 'sgdclassifier__loss': 'hinge', 'sgdclassifier__learning_rate': 'optimal', 'sgdclassifier__penalty': 'l2', 'sgdclassifier__class_weight': None, 'sgdclassifier__verbose': 0, 'standardscaler': StandardScaler(copy=True, with_mean=True, with_std=True), 'sgdclassifier__shuffle': True, 'sgdclassifier__alpha': 0.001, 'sgdclassifier__eta0': 0.0, 'sgdclassifier__epsilon': 0.1, 'sgdclassifier__max_iter': 1000, 'sgdclassifier__tol': 0.001, 'sgdclassifier__n_jobs': 4, 'memory': None}

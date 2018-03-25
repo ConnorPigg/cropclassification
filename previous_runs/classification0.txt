@@ -1,0 +1,21 @@
+loading labels
+loading north bands
+north bands load failed
+north, south, and label shape:  5959 9425
+loading south bands
+south bands load failed
+loading cleaned train data...
+loading cleaned train data failed.
+Cleaning training data..
+loading pipe
+Test set report
+             precision    recall  f1-score   support
+
+          0       0.66      0.59      0.62   2356500
+          1       0.76      0.84      0.80   6331658
+          5       0.85      0.77      0.81   5352736
+
+avg / total       0.78      0.77      0.77  14040894
+
+Test set accuracy
+0.773940462765

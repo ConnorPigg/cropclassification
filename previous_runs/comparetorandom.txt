@@ -1,0 +1,62 @@
+loading labels
+loading north bands
+loading south bands
+south bands load failed
+loading cleaned train data...
+loading best pipe
+Params
+{'sgdclassifier__random_state': None, 'sgdclassifier__average': False, 'sgdclassifier__shuffle': True, 'sgdclassifier__alpha': 0.001, 'steps': [('standardscaler', StandardScaler(copy=True, with_mean=True, with_std=True)), ('sgdclassifier', SGDClassifier(alpha=0.001, average=False, class_weight=None, epsilon=0.1,
+       eta0=0.0, fit_intercept=True, l1_ratio=0.15,
+       learning_rate='optimal', loss='hinge', max_iter=1000, n_iter=None,
+       n_jobs=4, penalty='l2', power_t=0.5, random_state=None,
+       shuffle=True, tol=0.001, verbose=0, warm_start=False))], 'sgdclassifier__epsilon': 0.1, 'sgdclassifier__loss': 'hinge', 'sgdclassifier__penalty': 'l2', 'sgdclassifier__max_iter': 1000, 'sgdclassifier__verbose': 0, 'standardscaler__with_std': True, 'standardscaler__with_mean': True, 'sgdclassifier__fit_intercept': True, 'standardscaler': StandardScaler(copy=True, with_mean=True, with_std=True), 'sgdclassifier__power_t': 0.5, 'sgdclassifier__learning_rate': 'optimal', 'sgdclassifier__eta0': 0.0, 'standardscaler__copy': True, 'sgdclassifier__n_jobs': 4, 'sgdclassifier__l1_ratio': 0.15, 'sgdclassifier__tol': 0.001, 'sgdclassifier__warm_start': False, 'sgdclassifier__n_iter': None, 'sgdclassifier': SGDClassifier(alpha=0.001, average=False, class_weight=None, epsilon=0.1,
+       eta0=0.0, fit_intercept=True, l1_ratio=0.15,
+       learning_rate='optimal', loss='hinge', max_iter=1000, n_iter=None,
+       n_jobs=4, penalty='l2', power_t=0.5, random_state=None,
+       shuffle=True, tol=0.001, verbose=0, warm_start=False), 'sgdclassifier__class_weight': None, 'memory': None}
+Report
+             precision    recall  f1-score   support
+
+          0       0.66      0.58      0.62   9425850
+          1       0.76      0.84      0.80  25320079
+          5       0.85      0.77      0.81  21417646
+
+avg / total       0.77      0.77      0.77  56163575
+
+Train Report
+             precision    recall  f1-score   support
+
+          0       0.66      0.60      0.63   6896541
+          1       0.78      0.84      0.81  18414061
+          5       0.85      0.80      0.82  15562566
+
+avg / total       0.78      0.78      0.78  40873168
+
+Test Report
+             precision    recall  f1-score   support
+
+          0       0.66      0.59      0.62   2356500
+          1       0.76      0.84      0.80   6331658
+          5       0.85      0.77      0.81   5352736
+
+avg / total       0.78      0.77      0.77  14040894
+
+Random Report
+             precision    recall  f1-score   support
+
+          0       0.17      0.33      0.22   2356500
+          1       0.45      0.33      0.38   6331658
+          5       0.38      0.33      0.36   5352736
+
+avg / total       0.38      0.33      0.35  14040894
+
+Weighted Random Report
+             precision    recall  f1-score   support
+
+          0       0.17      0.17      0.17   2356500
+          1       0.45      0.45      0.45   6331658
+          5       0.38      0.38      0.38   5352736
+
+avg / total       0.38      0.38      0.38  14040894
+
+Got to end

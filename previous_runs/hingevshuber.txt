@@ -1,0 +1,8 @@
+loading labels
+loading north bands
+loading south bands
+south bands load failed
+loading cleaned data
+loading best pipe
+failed to load best pipe
+trying to grid search the pipe
