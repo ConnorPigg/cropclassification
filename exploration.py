@@ -11,8 +11,8 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import RandomizedSearchCV
 import pickle
 
-gdal.UseExceptions()
 plt.switch_backend("agg")
+gdal.UseExceptions()
 
 simple_labels = None
 try:
